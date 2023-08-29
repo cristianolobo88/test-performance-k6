@@ -23,5 +23,5 @@ Após clonar o projeto, dentro do diretório executar os comandos abaixo:
 
 Para executar o script de teste:
 
-- k6 run name_script.js
+- k6 run scripts/teste-desempenho.js
 
