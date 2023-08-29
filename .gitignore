@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.test.js
+node_modules/
+test/
+*.log
+*.out
+*.html
+.temp/
+.cache/
+.vscode/
+.idea/
+.DS_Store
+.env
+package-lock.json
+yarn.lock

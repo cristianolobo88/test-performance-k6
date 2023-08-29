@@ -1,0 +1,31 @@
+scenarios: Indica o número total de cenários executados durante o teste. No seu caso, foi executado apenas um cenário.
+
+1 max VUs: Esse valor indica o número máximo de usuários virtuais (Virtual Users - VUs) simultâneos que foram utilizados no teste. No seu caso, foi utilizado um máximo de 1 VU.
+
+10m30s max duration (incl. graceful stop): Indica a duração máxima do teste, incluindo o tempo de parada graciosa (graceful stop). No seu caso, o teste tinha uma duração máxima de 10 minutos e 30 segundos.
+
+default: 1 iterations for each of 1 VUs (maxDuration: 10m0s, gracefulStop: 30s): Essa linha indica as configurações específicas do cenário "default". No seu caso, foi definido 1 iteração para cada 1 VU, com uma duração máxima de 10 minutos e um tempo de parada graciosa de 30 segundos.
+
+INFO[0026] Status code esperado (200) foi recebido: Essa é uma informação de log que indica que a resposta do servidor teve o status code esperado (200), ou seja, a requisição foi bem-sucedida.
+
+data_received: Indica a quantidade de dados recebidos durante o teste.
+
+data_sent: Indica a quantidade de dados enviados durante o teste.
+
+http_req_blocked, http_req_connecting, http_req_duration, http_req_receiving, http_req_sending, http_req_tls_handshaking, http_req_waiting: Essas métricas indicam o tempo médio, mínimo, máximo e percentis de diferentes fases da requisição HTTP, como bloqueio, conexão, duração, recebimento, envio e handshake TLS.
+
+http_req_failed: Indica a porcentagem de requisições que falharam durante o teste.
+
+http_reqs: Indica o número total de requisições HTTP feitas durante o teste.
+
+iteration_duration: Indica a duração média, mínima, máxima e percentis das iterações do teste.
+
+iterations: Indica o número total de iterações executadas durante o teste.
+
+vus: Indica o número atual de usuários virtuais (VUs) ativos durante o teste.
+
+vus_max: Indica o número máximo de usuários virtuais (VUs) que foram configurados para o teste.
+
+running (00m26.4s), 0/1 VUs, 1 complete and 0 interrupted iterations: Essa linha fornece informações em tempo real sobre o progresso da execução do teste, indicando o tempo decorrido, o número de VUs em execução, o número de iterações completas e o número de iterações interrompidas.
+
+default ✓ [======================================] 1 VUs 00m26.4s/10m0s 1/1 iters, 1 per VU: Essa linha mostra uma barra de progresso visual que indica o progresso do teste em relação ao tempo total definido e o número de iterações.
