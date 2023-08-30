@@ -11,7 +11,6 @@ https://k6.io/docs/
 
 Dependências:
 
-Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 Node: brew install node
 Yarn: brew install yarn
 
